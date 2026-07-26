@@ -14,67 +14,46 @@ export const profile = {
   linkedin: "https://www.linkedin.com/in/reva-saxena-61bb33342",
   resumeUrl: "/Reva_Saxena_Resume.pdf",
   bio: [
-    "I'm a data analyst and final-year BCA student based in Jaipur, India, currently rounding out four internships spanning data analytics, AI/BI strategy, and Python development. I'm drawn to the full lifecycle of a data problem: pulling and cleaning the data, building the model or pipeline behind it, and packaging the result into something a stakeholder can actually act on.",
-    "Across those internships, I've built predictive models and anomaly-detection workflows on transactional datasets with 25,000+ rows, shipped real-time dashboards in Python, Plotly, and SQL that gave teams live visibility into key business metrics, and automated data-validation pipelines that cut manual prep time by roughly a third. I've also spent time on the AI-strategy side, working through business case studies with BI and AI frameworks to turn ambiguous problems into clear recommendations.",
-    "I'm currently completing advanced diplomas in data analytics alongside my BCA, holding certifications from J.P. Morgan, Accenture, IBM, and Oracle Cloud Infrastructure. I'm actively looking for data analyst or data science roles where I can keep working close to the data — and close to the decisions it's meant to inform.",
+    "I’m a final-year BCA student and aspiring Data Analyst who enjoys turning raw, messy data into insights that drive better decisions. Whether it’s cleaning datasets, building predictive models, designing analytics pipelines, or creating interactive dashboards, I enjoy solving problems across the entire data lifecycle—from collecting information to delivering something stakeholders can confidently act on.",
+    "Through multiple internships spanning data analytics, AI/BI strategy, Python development, and web development, I’ve worked on projects involving 25,000+ row transactional datasets, developed anomaly detection and predictive modelling workflows, built real-time dashboards using Python, Plotly, and SQL, and automated data validation processes that reduced manual effort while improving data quality. Beyond the technical implementation, I enjoy understanding the business context behind the numbers and translating complex findings into practical recommendations.",
+    "Alongside my BCA, I’m pursuing advanced studies in Data Analytics while continuously strengthening my skills through industry programmes from J.P. Morgan, Accenture, IBM, and Oracle Cloud Infrastructure. I’m particularly interested in Data Analytics, Business Intelligence, and Data Science roles where I can combine analytical thinking, technical problem-solving, and effective communication to build solutions that create measurable business impact.",
   ],
   techStack: [
-    "Python",
-    "SQL",
-    "Power BI",
-    "Tableau",
-    "Pandas & NumPy",
-    "Scikit-learn",
-  ],
+  "Python",
+  "SQL",
+  "Power BI",
+  "Apache Spark",
+  "Oracle Cloud (OCI)",
+  "Machine Learning",
+  "Docker",
+  "Pandas",
+  "Plotly",]
 };
 
 export const skillGroups = [
   {
     title: "Programming & Querying",
-    skills: ["Python", "SQL", "JavaScript", "Scala", "C", "Java"],
+    skills: ["Python", "SQL", "JavaScript", "PHP", "Scala", "C", "Java"],
   },
   {
     title: "Data Analysis & Statistics",
-    skills: [
-      "Pandas",
-      "NumPy",
-      "Scikit-learn",
-      "EDA",
-      "Data Cleaning & Wrangling",
-      "Statistical Analysis",
-      "Hypothesis Testing",
-      "A/B Testing",
-      "Regression",
-      "Time-Series Analysis",
-    ],
+    skills: ["Pandas","NumPy","Scikit-learn","EDA", "Data Cleaning & Wrangling","Statistical Analysis","Hypothesis Testing","A/B Testing","Regression","Time-Series Analysis","Feature Engineering"],
   },
   {
     title: "BI & Visualization",
-    skills: [
-      "Power BI",
-      "Tableau",
-      "Plotly",
-      "Excel (PivotTables, VLOOKUP, Macros)",
-      "Google Sheets",
-      "Dashboarding & KPI Reporting",
-    ],
+    skills: ["Power BI","Tableau","Plotly","Excel (PivotTables, VLOOKUP, Macros)","Google Sheets","Dashboarding",],
   },
   {
     title: "Cloud & Big Data",
-    skills: ["Oracle Cloud Infrastructure (OCI)", "Apache Spark", "Big Data Fundamentals"],
+    skills: ["Oracle Cloud Infrastructure (OCI)", "Apache Spark", "Big Data Analytics", "Data Lakes", "Data Warehousing", "ETL Pipelines", "Cloud Storage & Compute"],
   },
   {
     title: "AI & Automation",
-    skills: [
-      "Generative AI Tools",
-      "Prompt Engineering",
-      "AI-Driven Analytics",
-      "Machine Learning Fundamentals",
-    ],
+    skills: ["Generative AI Tools","Prompt Engineering","AI-Driven Analytics","Machine Learning","Anomaly Detection","Predictive Modeling","Automation Workflows"],
   },
   {
-    title: "Web & Frameworks",
-    skills: ["HTML", "CSS", "React", "Flask"],
+    title: "Development Stack",
+    skills: ["HTML", "CSS", "Bootstrap", "jQuery", "React", "Flask", "Streamlit", "WordPress", "Software Testing"],
   },
   {
     title: "Tools & Platforms",
@@ -82,7 +61,7 @@ export const skillGroups = [
   },
   {
     title: "Professional",
-    skills: ["Data Storytelling", "Stakeholder Communication", "Agile/Scrum Basics"],
+    skills: ["Problem-Solving", "Critical Thinking", "Data Storytelling", "Stakeholder Communication", "Collaboration & Teamwork", "Agile Methodologies"],
   },
 ];
 
@@ -93,9 +72,10 @@ export const experience = [
     title: "AI Strategy & BI Intern",
     duration: "Mar 2026 — Apr 2026",
     points: [
-      "Worked through 3 real-world business case studies, applying BI and AI frameworks to translate raw business problems into structured, data-driven decisions.",
-      "Evaluated each case against IBM SkillsBuild's AI strategy playbooks, weighing trade-offs between different analytical and automation approaches before settling on a recommendation.",
-      "Presented findings, insights, and final recommendations to a mentor panel, defending the reasoning behind each strategic call under Q&A.",
+      "Analysed 3 real-world business case studies using Business Intelligence and AI frameworks to transform complex business challenges into structured, data-driven strategies.",
+      "Evaluated multiple AI adoption and analytics approaches by assessing feasibility, business impact, and implementation trade-offs before recommending the most effective solution.",
+      "Presented strategic insights and recommendations to an industry mentor panel, clearly justifying analytical decisions and responding to technical and business-focused discussions.",
+      "Mapped business requirements to AI and BI solution architectures, identifying suitable analytical approaches for improving decision-making and operational efficiency.",
     ],
   },
   {
@@ -104,10 +84,10 @@ export const experience = [
     title: "Website Developer Intern",
     duration: "Sept 2025 — Oct 2025",
     points: [
-      "Converted 10+ UI design mockups into responsive, functional website pages, working closely from spec to catch spacing, alignment, and breakpoint issues before handoff.",
-      "Improved cross-browser compatibility by testing and patching layout inconsistencies across Chrome, Firefox, and Safari.",
-      "Cut page-load time by roughly 20% through CSS optimization, image handling, and DevTools/DOM debugging.",
-      "Collaborated directly with the design team to flag mockup elements that wouldn't translate well to responsive layouts, and proposed practical fixes.",
+      "Translated 10+ UI design mockups into responsive, production-ready web pages, ensuring pixel-perfect implementation across multiple screen sizes and devices.",
+      "Enhanced cross-browser compatibility by identifying and resolving layout inconsistencies across Chrome, Firefox, and Safari, delivering a consistent user experience.",
+      "Optimized website performance through CSS refinement, image optimization, and DevTools-based debugging, reducing page-load time by approximately 20%.",
+      "Collaborated with designers to bridge design and development, identifying responsive design challenges early and proposing practical, user-centric solutions.",
     ],
   },
   {
@@ -140,15 +120,15 @@ export const experience = [
 export const projects = [
   {
     title: "Dynamic Pricing System",
-    desc: "An end-to-end demand-based pricing engine: engineered features from product, seasonal, and customer-behavior signals, then trained a predictive model that recommends real-time price adjustments as those inputs change. Built and deployed as an interactive Streamlit app so pricing scenarios can be tested live.",
-    tech: ["Python", "Machine Learning", "Feature Engineering", "Streamlit"],
+    desc: "Built an end-to-end machine learning pricing engine that analyses product attributes, seasonal demand, and customer behaviour to recommend dynamic price adjustments. Engineered predictive features, trained a pricing model, and deployed the solution as an interactive Streamlit application for real-time scenario analysis and pricing optimization.",
+    tech: ["Python", "Pandas", "NumPy", "Scikit-learn", "Streamlit"],
     demo: "https://dynamic-pricing-system-57pfa36vwafwytsxqvstfg.streamlit.app/",
     image: dynamicPricingImg,
     featured: true,
   },
   {
     title: "Password Strength Analyzer",
-    desc: "A real-time password strength evaluator that scores entropy and estimated crack time as you type, checks against a full requirements checklist, and visualizes character composition — all client-side, with nothing stored or sent.",
+    desc: "Built an interactive password security analyzer that evaluates password strength using entropy calculations, regex-based validation, and common password detection. The application provides real-time security feedback, estimates brute-force crack time, and includes a secure password generator, all within a responsive, user-friendly interface, and visualizes character composition — all client-side, with nothing stored or sent.",
     tech: ["HTML", "CSS", "JavaScript"],
     demo: "https://password-strength-analyser.netlify.app/",
     image: passwordStrengthImg,
