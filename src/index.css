@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-navy text-slate-lightest antialiased;
+  font-family: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+}
+
+[id] {
+  scroll-margin-top: 96px;
+}
+
+::selection {
+  background: #233554;
+  color: #e6f1ff;
+}
+
+/* Section header pattern: "/ label" + rule line */
+.section-header {
+  @apply flex items-center gap-6 mb-10 md:mb-12;
+}
+
+.section-header .section-number {
+  @apply font-mono text-accent text-lg md:text-xl whitespace-nowrap;
+}
+
+.section-header .section-title {
+  @apply font-bold text-slate-lightest whitespace-nowrap;
+  font-size: clamp(1.5rem, 1.1rem + 1.5vw, 2rem);
+}
+
+.section-header .section-rule {
+  @apply h-px bg-navy-lightest flex-1 mt-1;
+  max-width: 300px;
+}
+
+.section-badge {
+  @apply relative pl-6 text-slate;
+}
+
+.section-badge::before {
+  content: "▹";
+  @apply absolute left-0 text-accent;
+}
+
+.link-accent {
+  @apply text-accent hover:text-slate-lightest transition-colors duration-200;
+}
+
+.btn-outline {
+  @apply inline-flex items-center gap-2 font-mono text-sm font-semibold text-accent border border-accent rounded px-7 py-3.5 transition-all duration-300;
+}
+
+.btn-outline:hover {
+  background-color: rgba(244, 114, 182, 0.1);
+  transform: translateY(-3px);
+}
+
+.card {
+  @apply bg-navy-light rounded-2xl p-7 h-full flex flex-col transition-all duration-300;
+}
+
+.card:hover {
+  @apply bg-navy-lightest;
+  transform: translateY(-6px);
+}
+
+/* custom thin scrollbar for tab list on mobile */
+.scrollbar-thin::-webkit-scrollbar {
+  height: 4px;
+}
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background: #233554;
+  border-radius: 4px;
+}
