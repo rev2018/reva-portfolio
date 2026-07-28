@@ -96,10 +96,10 @@ export const experience = [
     title: "Data Analytics Intern",
     duration: "Jun 2025 — Jul 2025",
     points: [
-     "Built predictive models and anomaly-detection workflows on a 25,000+ row transactional dataset, improving detection accuracy by approximately 18% through feature engineering and iterative model refinement.",
-     "Designed and developed real-time analytics dashboards using Python, Plotly, and SQL, providing stakeholders with live visibility into 10+ key business performance metrics.",
-     "Automated data validation, transformation, and SQL-based data processing workflows, reducing manual data preparation time by approximately 30% while improving data quality and pipeline reliability.",
-     "Documented analytical workflows, model assumptions, and pipeline logic to enable reproducible execution, seamless knowledge transfer, and efficient collaboration across team members.",
+     "Built predictive models and anomaly-detection workflows on a 25,000+ row transactional dataset, improving detection accuracy by approximately 18% through feature engineering.",
+     "Designed real-time analytics dashboards using Python, Plotly, and SQL, providing stakeholders with live visibility into 10+ key business performance metrics.",
+     "Automated data validation, transformation, and SQL workflows, reducing manual data preparation time by approximately 30% while improving data quality and pipeline reliability.",
+     "Documented analytical workflows, model assumptions, and pipeline logic, enabling reproducible execution and seamless knowledge transfer across team members.",
     ],
   },
   {
