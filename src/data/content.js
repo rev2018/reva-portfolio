@@ -72,10 +72,10 @@ export const experience = [
     title: "AI Strategy & BI Intern",
     duration: "Mar 2026 — Apr 2026",
     points: [
-      "Analysed 3 real-world business case studies using Business Intelligence and AI frameworks to transform complex business challenges into structured, data-driven strategies.",
-      "Evaluated multiple AI adoption and analytics approaches by assessing feasibility, business impact, and implementation trade-offs before recommending the most effective solution.",
-      "Presented strategic insights and recommendations to an industry mentor panel, clearly justifying analytical decisions and responding to technical and business-focused discussions.",
-      "Mapped business requirements to AI and BI solution architectures, identifying suitable analytical approaches for improving decision-making and operational efficiency.",
+   "Analysed 3 real-world business case studies using Business Intelligence and AI frameworks to transform complex business challenges into structured, data-driven strategies.",
+   "Evaluated multiple AI adoption and analytics approaches by assessing feasibility, business impact, and implementation trade-offs before recommending the most effective solution.",
+   "Presented strategic insights and recommendations to an industry mentor panel, clearly justifying analytical decisions while responding to technical and business-focused discussions.",
+   "Mapped business requirements to AI and BI solution architectures, identifying suitable analytical approaches to improve decision-making and operational efficiency.",
     ],
   },
   {
@@ -96,11 +96,10 @@ export const experience = [
     title: "Data Analytics Intern",
     duration: "Jun 2025 — Jul 2025",
     points: [
-      "Built predictive models and anomaly-detection workflows on a 25,000+ row transactional dataset, iterating on feature selection to lift detection accuracy by roughly 18% over the prior baseline rule-based checks.",
-      "Designed and shipped real-time analytics dashboards in Python, Plotly, and SQL, giving stakeholders live visibility into 10+ key business metrics without needing to pull manual reports.",
-      "Automated data validation and transformation in the pipeline, cutting manual data-prep time by an estimated 30-35% and reducing downstream data-quality errors that used to require manual cleanup.",
-      "Queried and joined multi-table datasets in SQL to support 15+ ad-hoc analysis requests from the team, often turning around same-day answers for time-sensitive business questions.",
-      "Documented model assumptions and pipeline logic so the anomaly-detection workflow could be handed off and rerun by teammates without needing a walkthrough.",
+     "Built predictive models and anomaly-detection workflows on a 25,000+ row transactional dataset, improving detection accuracy by approximately 18% through feature engineering and iterative model refinement.",
+     "Designed and developed real-time analytics dashboards using Python, Plotly, and SQL, providing stakeholders with live visibility into 10+ key business performance metrics.",
+     "Automated data validation, transformation, and SQL-based data processing workflows, reducing manual data preparation time by approximately 30% while improving data quality and pipeline reliability.",
+     "Documented analytical workflows, model assumptions, and pipeline logic to enable reproducible execution, seamless knowledge transfer, and efficient collaboration across team members.",
     ],
   },
   {
