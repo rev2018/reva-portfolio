@@ -378,8 +378,6 @@ function App() {
           <div className="contact-details-list">
             <span className="contact-detail-label">LINKEDIN</span>
             <a href={profile.linkedin} target="_blank" rel="noreferrer">{profile.linkedinDisplay} <Arrow /></a>
-            <span className="contact-detail-label">PINTEREST · VISUAL INSPIRATION</span>
-            <a href={profile.pinterest} target="_blank" rel="noreferrer">in.pinterest.com/asitarafromrohininakshatra <Arrow /></a>
             <span className="contact-detail-label">PHONE</span>
             <a href={`tel:${profile.phone.replace(/[^+\d]/g, "")}`}>{profile.phone}</a>
           </div>
