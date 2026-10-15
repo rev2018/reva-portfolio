@@ -331,6 +331,15 @@ a:hover .arrow-glyph,.service-contact a:hover .arrow-glyph{transform:translate(2
 
 
 
-/* Keep long console previews inside the inset display instead of clipping the final words. */
-.terminal-title{font-size:min(clamp(9px,3vw,37px),calc(min(48vw,597px) / var(--title-length) / .53));overflow:visible;text-overflow:clip}
-@media(max-width:650px){.terminal-title{font-size:min(clamp(8px,3.2vw,19px),calc(min(48vw,597px) / var(--title-length) / .53));}}
+/* Keep console heading text consistent across all entries */
+.terminal-title {
+  font-size: clamp(13px, 3vw, 37px);
+  overflow: hidden;
+  text-overflow: clip;
+}
+
+@media (max-width: 650px) {
+  .terminal-title {
+    font-size: clamp(12px, 3.2vw, 19px);
+  }
+}
