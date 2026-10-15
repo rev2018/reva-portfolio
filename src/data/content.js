@@ -158,7 +158,7 @@ export const achievements = [
   {
     title: "Second in Order of Merit — Diploma in Data Analytics",
     date: "September 2026",
-    issuer: "Manipal University Jaipur",
+    issuer: "IIS (Deemed to be University), Jaipur",
     desc: "Finished the Diploma in Data Analytics with a 10.0 CGPA and second place in the Order of Merit."
   },
   {
