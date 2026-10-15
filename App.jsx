@@ -96,7 +96,6 @@
       </section>
     </main>
 
-    <footer className="site-footer"><span>PYTHON / SQL / RELIABLE DATA</span><span>© {new Date().getFullYear()} REVA SAXENA</span></footer>
     {modal && <SectionDialog section={modal} onClose={closeSection} />}
   </div>;
 }
